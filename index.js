@@ -12,7 +12,7 @@ const saveLayer = (_canvas) => {
 const drawLayer = async () => {
     const image = await loadImage("./eye_ball.png");
     ctx.drawImage(image, 200, 400, 100, 100);
-    console.log("This ram");
+    console.log("This ran");
     saveLayer(canvas);
 };
 
